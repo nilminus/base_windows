@@ -32,7 +32,14 @@ cinst ruby
 cinst sublimetext2
 cinst webpi
 cinst webpicommandline
+cinst notepadplusplus
 
 # Misc
 cinst vlc
 cinst virtualclonedrive
+cinst jre7
+cinst 7zip
+cinst autohotkey.portable
+
+# Security?
+cinst sysinternals
