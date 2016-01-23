@@ -4,19 +4,21 @@ if ((which cinst) -eq $null) {
     choco feature enable -n=allowGlobalConfirmation
 }
 
-# Browsing
+# Net
 cinst firefox
 cinst googlechrome
 cinst firefox
 cinst opera
 cinst fiddler
-
-# Net
 cinst dropbox
 cinst evernote
 cinst skype
+cinst teamviewer
+cinst thunderbird
 
 # Development
+cinst python2
+cinst conemu
 cinst wget
 cinst curl
 cinst wput
@@ -29,17 +31,23 @@ cinst nodejs.install
 cinst nuget.commandline
 cinst putty
 cinst ruby
-cinst sublimetext2
+cinst sublimetext3
 cinst webpi
 cinst webpicommandline
 cinst notepadplusplus
+cinst jre7
+cinst jdk7
 
 # Misc
 cinst vlc
 cinst virtualclonedrive
-cinst jre7
-cinst 7zip
-cinst autohotkey.portable
+cinst winrar
+cinst autohotkey
+cinst virtualbox
+cinst calibre
+
 
 # Security?
 cinst sysinternals
+cinst procexp
+cinst wireshark
